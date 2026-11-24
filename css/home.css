@@ -146,7 +146,7 @@ button {
   display: inline-flex;
   align-items: center;
   gap: 0.65rem;
-  padding: 0.42rem 1.15rem 0.42rem 0.7rem;
+  padding: 0.45rem 1.15rem 0.45rem 0.75rem;
   border: 1px solid rgba(28, 29, 33, 0.45);
   border-radius: 8px 18px 8px 18px;
   background: rgba(255, 255, 255, 0.35);
@@ -157,6 +157,12 @@ button {
 .logo-pill:hover {
   background: rgba(255, 255, 255, 0.7);
   border-color: var(--dark);
+}
+
+.logo-pill__img {
+  height: 28px;
+  width: auto;
+  display: block;
 }
 
 .logo-pill__icon {
@@ -1337,6 +1343,12 @@ button {
   display: inline-flex;
   align-items: center;
   gap: 0.75rem;
+}
+
+.ft-logo__img {
+  height: 36px;
+  width: auto;
+  display: block;
 }
 
 .ft-logo__icon {
