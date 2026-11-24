@@ -22,6 +22,14 @@ document.addEventListener('DOMContentLoaded', () => {
         mobileToggle.innerHTML = '☰';
       });
     });
+
+    document.addEventListener('click', (e) => {
+      if (navMenu.classList.contains('is-active') && !navMenu.contains(e.target) && !mobileToggle.contains(e.target)) {
+        navMenu.classList.remove('is-active');
+        mobileToggle.setAttribute('aria-expanded', 'false');
+        mobileToggle.innerHTML = '☰';
+      }
+    });
   }
 
   // 2. FAQ Accordions
