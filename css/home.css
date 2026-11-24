@@ -2087,13 +2087,41 @@ button {
     padding: 3rem 0;
   }
 
-  .dark-features {
-    grid-template-columns: 1fr;
-    gap: 1.35rem;
-  }
-
   .sec-dark {
     padding: 3.25rem 0;
+  }
+
+  .dark-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .dark-intro__sub {
+    max-width: 340px;
+    margin-inline: auto;
+  }
+
+  .dark-arrow-btn {
+    margin-inline: auto;
+  }
+
+  .dark-features {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+
+  .dfeat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .dfeat p {
+    max-width: 340px;
+    margin-inline: auto;
   }
 
   .about-panels {
@@ -2218,6 +2246,27 @@ button {
   .sec-proc-cta {
     padding-bottom: 3.5rem;
   }
+
+  .reviews-copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .reviews-copy p {
+    margin-inline: auto;
+  }
+
+  .gmaps-rating-pill {
+    margin-inline: auto;
+    justify-content: center;
+  }
+
+  .reviews-actions {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 480px) {
@@ -2274,7 +2323,8 @@ button {
 
   .ft-dark__in {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
     gap: 1.15rem;
   }
 
